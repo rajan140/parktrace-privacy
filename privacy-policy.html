@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · ParkTrace</title>
+<meta name="description" content="How ParkTrace handles your location, photos and parking details.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F7F7F7;
+    --surface: #FFFFFF;
+    --ink: #1B1F1C;
+    --muted: #5B655F;
+    --rule: #DDE3DF;
+    --accent: #0C7A46;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0B0E0C;
+      --surface: #151A17;
+      --ink: #ECEFEC;
+      --muted: #A3ADA7;
+      --rule: #2A322D;
+      --accent: #FFD64A;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Roboto Flex", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+
+  main {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 5rem;
+  }
+
+  header { margin-bottom: 3rem; }
+
+  .app {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--accent);
+  }
+
+  h1 {
+    margin: 0.35rem 0 0.75rem;
+    font-size: clamp(2.25rem, 7vw, 3.25rem);
+    line-height: 1.08;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+
+  .effective { margin: 0; color: var(--muted); font-size: 0.95rem; }
+
+  /* The one structural device on the page: where each kind of data goes. */
+  .glance {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    margin: 0 0 3.5rem;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .glance div { background: var(--surface); padding: 1.25rem 1.35rem 1.4rem; }
+  .glance h2 {
+    margin: 0 0 0.6rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .glance ul { margin: 0; padding-left: 1.1rem; color: var(--muted); font-size: 0.97rem; }
+  .glance li + li { margin-top: 0.3rem; }
+
+  section { margin-top: 2.75rem; }
+  section h2 {
+    margin: 0 0 0.6rem;
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.25;
+  }
+  p { margin: 0 0 1rem; }
+  section ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+  section li + li { margin-top: 0.45rem; }
+  strong { font-weight: 500; }
+
+  a { color: var(--accent); text-underline-offset: 0.18em; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.93rem;
+  }
+
+  @media (max-width: 34rem) {
+    main { padding-top: 2.75rem; }
+    .glance { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <p class="app">ParkTrace: Find Your Way</p>
+    <h1>Privacy policy</h1>
+    <p class="effective">Effective 21 September 2026</p>
+  </header>
+
+  <div class="glance" aria-label="Summary">
+    <div>
+      <h2>Kept on your phone</h2>
+      <ul>
+        <li>Your saved parking spots</li>
+        <li>Floor, zone, row, spot and notes</li>
+        <li>Parking photos</li>
+        <li>Your settings</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Sent to Google</h2>
+      <ul>
+        <li>Coordinates, to show place names and maps</li>
+        <li>Purchases, handled by Google Play</li>
+        <li>An optional device backup, if you have it on</li>
+      </ul>
+    </div>
+  </div>
+
+  <section>
+    <h2>Who we are</h2>
+    <p>ParkTrace is made by SS Pixels. In this policy, “we” means SS Pixels and “the app” means ParkTrace on Android.</p>
+    <p>ParkTrace has no accounts and no servers of its own. We never receive your parking data, your location or your photos.</p>
+  </section>
+
+  <section>
+    <h2>What the app stores on your phone</h2>
+    <p>When you save a spot, ParkTrace keeps the following in private storage on your device, where other apps cannot read it:</p>
+    <ul>
+      <li><strong>Location</strong> — the coordinates of your parked car and how accurate the reading was.</li>
+      <li><strong>Time</strong> — when you parked and when you cleared the spot.</li>
+      <li><strong>Details you add</strong> — floor, zone, row, spot, pillar and notes.</li>
+      <li><strong>Photos you take or choose</strong> — copied into the app’s own storage. ParkTrace does not read the rest of your photo library.</li>
+      <li><strong>Settings</strong> — units, theme, vibration and whether you have Premium.</li>
+    </ul>
+    <p>This information stays on your device until you delete it.</p>
+  </section>
+
+  <section>
+    <h2>What leaves your phone</h2>
+    <p><strong>Google Maps Platform.</strong> When you are online, ParkTrace sends the coordinates of your parked car to Google to look up a place name and address, and to load map images on the Find My Car screen. Google handles this under its own <a href="https://policies.google.com/privacy">privacy policy</a>. If you are offline, nothing is sent and the app still works.</p>
+    <p><strong>Google Play.</strong> If you buy ParkTrace Premium, the purchase is handled entirely by Google Play. We never see your payment details. The app only receives confirmation from Google Play that Premium has been purchased.</p>
+    <p><strong>Android backup.</strong> If backup is turned on in your phone’s settings, Android may include ParkTrace’s data in the backup it saves to your own Google account. This is controlled by your device, not by us, and you can turn it off in your phone’s backup settings.</p>
+  </section>
+
+  <section>
+    <h2>Permissions and why we ask</h2>
+    <ul>
+      <li><strong>Location</strong> — to record where you parked and to guide you back. ParkTrace uses your location only while the app is open. It does not track you in the background.</li>
+      <li><strong>Notifications</strong> — to send a parking reminder, and only if you set one.</li>
+      <li><strong>Camera</strong> — ParkTrace does not ask for camera permission. When you take a photo, it opens your phone’s own camera app.</li>
+      <li><strong>Internet</strong> — for place names and maps, and for Google Play purchases.</li>
+      <li><strong>Run at startup</strong> — so a reminder you set still arrives after your phone restarts.</li>
+      <li><strong>Vibration</strong> — for feedback when you save a spot or arrive at your car. You can turn this off in Settings.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What we don’t do</h2>
+    <ul>
+      <li>We don’t require an account or collect your name, email or phone number.</li>
+      <li>We don’t use analytics, tracking or crash-reporting services.</li>
+      <li>We don’t sell, rent or share your data with anyone for advertising.</li>
+      <li>We don’t show ads. If that ever changes, we will update this policy before it does.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Deleting your data</h2>
+    <p>You are in control of everything ParkTrace stores:</p>
+    <ul>
+      <li>Delete a single spot from Parking history.</li>
+      <li>Delete all spots at once with Clear in Parking history.</li>
+      <li>Remove everything by uninstalling the app, or with Clear storage in your phone’s app settings.</li>
+    </ul>
+    <p>Because we hold none of your data, there is nothing for us to delete on our side.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>ParkTrace is not directed at children under 13, and we do not knowingly collect information from them.</p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>If we change how ParkTrace handles data, we will update this page and the effective date above before the change reaches the app.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions about this policy or your data: <a href="mailto:support.sspixels@gmail.com">support.sspixels@gmail.com</a></p>
+  </section>
+
+  <footer>
+    © 2026 SS Pixels. All rights reserved.
+  </footer>
+
+</main>
+</body>
+</html>
